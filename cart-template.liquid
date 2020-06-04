@@ -1,0 +1,25 @@
+<div class="cart-recap__price-line cart-recap__price-line--mth text--pull">     
+    <span class="cart-recap__price-line-label">Subtotal:</span>
+    <span class="cart-recap__price-line-price js-cart-shipping-subtotal">{{ cart.total_price | money }}</span>
+  </div>
+
+  <!-- Shipping -->
+  <div class="cart-recap__price-line cart-recap__price-line--mth text--pull">
+    <span class="cart-recap__price-line-label">Shipping:</span>
+    <span class="cart-recap__price-line-shipping js-cart-shipping-rate"></span>
+  </div>                    
+
+  <!-- VAT -->
+  <div class="cart-recap__price-line cart-recap__price-line--mth text--pull">                      
+      <span class="cart-recap__price-line-label">VAT</span>
+      <span class="cart-recap__price-line-price js-cart-vat"></span>
+  </div>                   
+
+  <!-- Total -->
+  <div class="cart-recap__price-line cart-recap__price-line--mth text--pull">     
+      <span class="cart-recap__price-line-label">
+        <Strong>Total</strong>
+        <small>(inc shipping & VAT)</small>
+      </span>
+      <span class="cart-recap__price-line-price js-cart-total"></span>
+  </div>
